@@ -11,6 +11,7 @@ public:
             if (nums[i] != val) {
                 nums[k] = nums[i];
                 k++;
+                
             }
         }
         return k;
