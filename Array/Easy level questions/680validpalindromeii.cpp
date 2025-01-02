@@ -34,6 +34,8 @@ public:
 int main() {
     Solution solution;
     string input;
+
+    
     
     cout << "Enter a string: ";
     cin >> input;
