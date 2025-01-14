@@ -1,7 +1,3 @@
-#include <iostream>
-#include <string>
-using namespace std;
-
 class Solution {
 public:
     bool isPalindrome(string &s, int st, int e) {
@@ -30,21 +26,3 @@ public:
         return true; 
     }
 };
-
-int main() {
-    Solution solution;
-    string input;
-
-    
-    
-    cout << "Enter a string: ";
-    cin >> input;
-    
-    if (solution.validPalindrome(input)) {
-        cout << "The string \"" << input << "\" can be a palindrome with at most one character deletion." << endl;
-    } else {
-        cout << "The string \"" << input << "\" cannot be a palindrome even with one character deletion." << endl;
-    }
-    
-    return 0;
-}
