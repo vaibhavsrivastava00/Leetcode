@@ -1,2 +1,7 @@
-# Leetcode
- All of my solved leetcode problems
+# LeetCode
+
+This repository contains my solutions to LeetCode problems.
+
+
+
+ Happy coding! 🚀
