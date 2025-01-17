@@ -4,6 +4,7 @@ public:
         stack<char> st;
         for (int i = 0; i < s.size(); i++) {
             char ch = s[i];
+            
             if (ch == '[' || ch == '{' || ch == '(') {
                 st.push(ch);
             } else if (ch == ']' || ch == '}' || ch == ')') {
